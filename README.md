@@ -1,2 +1,2 @@
 # BookstoreProject
-Software Engineering 
+Software Engineering Online Bookstore
