@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+}
+.storename {
+    color: whitesmoke;
+    margin-left: 5%;
+}
+a {
+     color: lightslategray;
+     justify-content: left;
+}
+div {
+    justify-content: right;
+}
+.collapse {
+    margin-right: 3%;
+}
+.form-inline {
+    margin-left: 20%;
+}
+.carclass {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.rows {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+}

@@ -1,0 +1,32 @@
+/*Navbar CSS*/
+body {
+    background-color: whitesmoke;
+}
+.storename {
+    color: whitesmoke;
+    margin-left: 5%;
+}
+a {
+    color: lightslategray;
+    justify-content: left;
+}
+.collapse {
+    margin-right: 3%;
+ }
+ .form-inline {
+    margin-left: 20%;
+ }
+ /*End Navbar CSS*/
+ .container-fluid {
+    margin-top: 10%;
+ }
+ .form-container{
+    background-color: whitesmoke;
+    padding: 50px;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+#title {
+    text-align: center;
+    padding-bottom: 10px;
+}

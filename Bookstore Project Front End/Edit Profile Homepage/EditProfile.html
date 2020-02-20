@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Edit Profile</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="editprofile.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <h4 class = "storename">Bookstore</h4>
+            <!-- Search Bar -->
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- Buttons -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Shopping Cart Button -->
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="btn btn-outline-success my-2 my-sm-0">
+                            <span class="glyphicon">&#128722;</span> Shopping Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div style="margin-top: 8%; margin-bottom: 0%; margin-left: 43%;"><h1>My Profile</h1></div>
+        <!-- Personal info -->
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Personal Info</h4>
+                      <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">First Name: </h6>
+                      <p style="display: inline;">John</p><br>
+                      <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Last Name: </h6>
+                      <p style="display: inline;">Smith</p><br>
+                      <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Email: </h6>
+                      <p style="display: inline;">johnsmith@gmail.com</p>
+                      <a class="btn btn-primary" href="#" role="button" id="pinfobutton" style="margin-top: 6%;">Edit Personal Info</a>
+                      <a class="btn btn-primary" href="#" role="button" id="pinfobutton">Change Password</a>
+                    </div>
+                  </div>
+            </div>
+            <!-- Address Information -->
+            <div class="col-xs-6 col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Address</h4>
+                        <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Address: </h6>
+                        <p style="display: inline;">123 Main Street</p><br>
+                        <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">City:  </h6>
+                        <p style="display: inline;">Athens</p><br>
+                        <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">State: </h6>
+                        <p style="display: inline;">GA</p><br>
+                        <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Zip: </h6>
+                        <p style="display: inline;">30606</p>
+                        <a class="btn btn-primary" href="#" role="button" id="pinfobutton" style="margin-top: 7%;">Edit / Add Address Info</a>
+                    </div>
+                  </div>
+            </div>
+            <!-- Credit Card Information -->
+            <div class="col-xs-6 col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Saved Payment Information</h4>
+                        <div style="margin-top: 15%;">
+                            <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Card Number Ending With: </h6>
+                            <p style="display: inline;">1234</p><br>
+                        </div>
+                        <a class="btn btn-primary" href="#" role="button" id="pinfobutton" style="margin-top: 15%;">Edit / Add Payment Info</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <div class="card" style="margin-bottom: 15%;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">View Order History</h4>
+                        <div style="margin-top: 15%;">
+                            <h6 class="card-subtitle mb-2 text-muted" style="display: inline;">Previous Orders: </h6>
+                            <p style="display: inline;">5</p><br>
+                        </div>
+                        <a class="btn btn-primary" href="#" role="button" id="pinfobutton" style="margin-top: 15%;">Click Here to View</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

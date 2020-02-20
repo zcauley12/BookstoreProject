@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Order History</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="orderhistory.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <h4 class = "storename">Bookstore</h4>
+            <!-- Search Bar -->
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- Buttons -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Shopping Cart Button -->
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="btn btn-outline-success my-2 my-sm-0">
+                            <span class="glyphicon">&#128722;</span> Shopping Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 style="text-align: center; margin-top: 6%;">Order History</h1>
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Order Date</th>					
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td><img src="harrypotter.jpg" class="bookimg" alt="Book Image">
+                        &nbsp Harry Potter and the Deathly Hallows</td>
+                    <td>June 15, 2019</td>
+                    <td>$15.99</td>
+                    <td><a class="btn btn-primary" href="#" role="button">Reorder</a></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td><img src="hungergames.jpg" class="bookimg" alt="Book Image">&nbsp The Hunger Games</td>
+                    <td>July 29, 2019</td>
+                    <td>$24.99</td>
+                    <td><a class="btn btn-primary" href="#" role="button">Reorder</a></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td><img src="greatgatsby.jpg" class="bookimg" alt="Book Image">&nbsp The Great Gatsby</td>
+                    <td>August 9, 2019</td>
+                    <td>$10.47</td>
+                    <td><a class="btn btn-primary" href="#" role="button">Reorder</a></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td><img src="hbp.jpg" class="bookimg" alt="Book Image">&nbsp Harry Potter and the Half Blood Prince</td>
+                    <td>September 17, 2019</td>
+                    <td>$33.54</td>
+                    <td><a class="btn btn-primary" href="#" role="button">Reorder</a></td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td><img src="mockingbird.jpg" class="bookimg" alt="Book Image">&nbsp To Kill a Mockingbird</td>
+                    <td>January 24, 2020</td>
+                    <td>$9.87</td>
+                    <td><a class="btn btn-primary" href="#" role="button">Reorder</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
