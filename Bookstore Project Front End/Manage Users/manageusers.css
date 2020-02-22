@@ -1,0 +1,42 @@
+/*Navbar CSS*/
+body {
+    background-color: whitesmoke;
+}
+.storename {
+    color: whitesmoke;
+    margin-left: 5%;
+}
+a {
+    color: lightslategray;
+    justify-content: left;
+}
+.collapse {
+    margin-right: 3%;
+ }
+ .form-inline {
+    margin-bottom: 3%;
+    width: 100%;
+ }
+ /*End Navbar CSS*/
+.card {
+     margin-top: 5%;
+     width: 90%;
+ }
+ .table {
+    width: 100%;
+    text-align: left;
+}
+.bookimg {
+    height: 100%;
+    width: 100%;
+}
+#info {
+    vertical-align: middle;
+}
+#editBtn {
+    width: 45%;
+    margin-left: 2%;
+}
+#editBtnAdmin {
+    width: 100%;
+}
