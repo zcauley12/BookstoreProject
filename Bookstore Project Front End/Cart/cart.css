@@ -1,0 +1,35 @@
+/*Navbar CSS*/
+body {
+    background-color: whitesmoke;
+}
+.storename {
+    color: whitesmoke;
+    margin-left: 5%;
+}
+a {
+    color: lightslategray;
+    justify-content: left;
+}
+.collapse {
+    margin-right: 3%;
+ }
+ .form-inline {
+    margin-left: 20%;
+ }
+ /*End Navbar CSS*/
+ .table {
+     width: 70%;
+     text-align: left;
+     margin-top: 3%;
+     margin-left: 14%;
+ }
+ .bookimg {
+     height: 7%;
+     width: 5%;
+ }
+ #btns {
+    text-align: center;
+ }
+ td a {
+     width: 40%;
+ }
