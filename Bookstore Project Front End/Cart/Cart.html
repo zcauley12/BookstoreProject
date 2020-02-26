@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Order History</title>
+    <title>Cart</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -123,22 +123,31 @@
       </tbody>
     </table>
     <div class="row">
-      <div class="col-lg-2" style="margin-left: 13.5%;">
+      <div class="col-lg-3" style="margin-left: 13.5%;">
         <div class="input-group">
           <div class="input-group-prepend">
             <span class="input-group-text">Promo Code:</span>
           </div>
           <input type="text" class="form-control" />
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">Apply</button>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4" style="text-align: center;">
+      <div class="col-lg-3" style="text-align: right;">
         <p style="font-weight: bold; display: inline;">Total:</p>
         <p style="display: inline; margin-left: 2%; margin-right: 4%;">
           $94.86
         </p>
       </div>
       <div class="col-lg-3" style="text-align: center;">
-        <a class="btn btn-primary" href="#" role="button">Continue to Checkout</a>
+        <a
+          class="btn btn-primary"
+          href="#"
+          role="button"
+          style="margin-left: 9%;"
+          >Continue to Checkout</a
+        >
       </div>
     </div>
     <script

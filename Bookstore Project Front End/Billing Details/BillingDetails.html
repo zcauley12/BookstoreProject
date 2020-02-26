@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Payment Info</title>
+    <title>Billing Details</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="paymentinfo.css" />
+    <link rel="stylesheet" href="billingdetails.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -53,59 +53,60 @@
       <section class="row justify-content-center">
         <section class="col-12 col-sm-7 col-md-5">
           <form class="form-container">
-            <h4 id="title">Enter Payment Info</h4>
-            <div class="form-group" style="width: 100%;">
-              <label for="FullName">Card Holder Name: </label>
+            <h4>Billing Details</h4>
+            <div class="form-group form-inline">
+              <label for="firstName"
+                >First Name<sup style="color: red;">*</sup></label
+              >
               <input
                 type="text"
                 class="form-control"
-                id="FullName"
-                placeholder="Name"
+                placeholder="First Name"
+                required
               />
             </div>
-            <div class="form-group" style="width: 100%;">
-              <label for="CardNumber">Card Number: </label>
+            <div class="form-group form-inline">
+              <label for="lastName"
+                >Last Name<sup style="color: red;">*</sup></label
+              >
               <input
                 type="text"
                 class="form-control"
-                id="CardNumber"
-                placeholder="Card Number"
+                placeholder="Last Name"
+                required
               />
             </div>
-            <div class="form-group">
-              <label for="Date">Expiration Date: </label>
+            <div class="form-group form-inline">
+              <label for="address1">Address</label>
+              <input type="text" class="form-control" placeholder="Address" />
+            </div>
+            <div class="form-group form-inline">
+              <label for="city1">City</label>
+              <input type="text" class="form-control" placeholder="City" />
+            </div>
+            <div class="form-group form-inline">
+              <label for="state">State</label>
               <input
                 type="text"
                 class="form-control"
-                id="Date"
-                placeholder="MM / YY"
+                placeholder="State"
               />
             </div>
-            <div class="form-group">
-              <label for="CVV">Security Code (CVV): </label>
+            <div class="form-group form-inline">
+              <label for="postalCode1">Postal Code</label>
               <input
                 type="text"
                 class="form-control"
-                id="CVV"
-                placeholder="XXX"
+                placeholder="Postal Code"
               />
             </div>
             <div class="form-group form-inline" style="width: 100%;">
-              <label
-                for="savedPayment"
-                style="width: 46%; justify-content: left;"
-                >Use Card Ending With &nbsp;
-                <span style="font-weight: bold;">1234</span></label
+              <label for="savedAddress" style="width: 70%;"
+                >Click Here to Use Saved Address</label
               >
               <input type="checkbox" class="form-control" />
             </div>
-            <hr />
-            <p style="font-weight: bold; display: inline-block;">Total:</p>
-            <p style="display: inline-block; margin-left: 2%; margin-right: 4%;">
-              $94.86
-            </p>
-            <br>
-            <button type="submit" class="btn btn-primary">Checkout</button>
+            <button type="submit" class="btn btn-primary">Continue</button>
           </form>
         </section>
       </section>
