@@ -17,24 +17,14 @@ a {
     margin-left: 20%;
  }
  /*End Navbar CSS*/
-.form-container{
-    margin-top: 10%;
+table {
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 13px;
+}
+.form-container {
+    margin-top: 2%;
     background-color: whitesmoke;
     padding: 50px;
     box-shadow: 0px 0px 10px 0px;
     border-radius: 10px;
-}
-#header {
-    text-align: center;
-    padding-bottom: 10px;
-}
-label {
-    display: inline-block;
-    text-align: right;
-    width: 180px;
-    padding-right: 5%;
-}
-button {
-    margin-left: 25%;
-    width: 50%;
 }
